@@ -1,7 +1,6 @@
-node-web-scraper
+GetMarketValueOfClubs
 ================
 
-Simple web scraper to get a movie name, release year and community rating from IMDB.
-"# GetMarketValueOfClubs" 
-"# GetMarketValueOfClubs" 
+Simple web request "GetMarketValueOfClubs"
+
 "# GetMarketValueOfClubs" 
