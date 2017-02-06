@@ -8,6 +8,9 @@
     "type" : "git",
     "url"  : "https://github.com/scotch-io/node-web-scraper"
   },
+  "script" : {
+    "start": "node service.js"
+  },
   "dependencies" : {
     "express"    : "latest",
     "request"    : "latest",
