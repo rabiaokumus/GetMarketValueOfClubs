@@ -23,6 +23,8 @@ app.get('/TR1', function(req, res){
   })
 })
 
-app.listen(8000)
-console.log('Listening http://127.0.0.1:8081/8081');
+app.listen(8000, function() {
+  console.log("listening on port 8000");
+});
+
 exports = module.exports = app;
