@@ -6,8 +6,11 @@
   "author"       : "Scotch",
   "repository"   : {
     "type" : "git",
-    "url"  : "https://github.com/scotch-io/node-web-scraper"
+    "url"  : "https://github.com/rabiaokumus/GetMarketValueOfClubs"
   },
+  "scripts" : {
+  "start": "node service.js"
+},
   "dependencies" : {
     "express"    : "latest",
     "request"    : "latest",
