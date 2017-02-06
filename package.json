@@ -1,9 +1,9 @@
 {
-  "name"         : "node-web-scrape",
+  "name"         : "GetMarketValueOfClubs",
   "version"      : "0.0.1",
-  "description"  : "Scrape le web.",
-  "main"         : "server.js",
-  "author"       : "Scotch",
+  "description"  : "GetMarketValueOfClubs",
+  "main"         : "service.js",
+  "author"       : "rabiaokumus",
   "repository"   : {
     "type" : "git",
     "url"  : "https://github.com/rabiaokumus/GetMarketValueOfClubs"
