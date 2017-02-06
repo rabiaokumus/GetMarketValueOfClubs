@@ -2,15 +2,15 @@
   "name"         : "node-web-scrape",
   "version"      : "0.0.1",
   "description"  : "Scrape le web.",
-  "main"         : "service.js",
+  "main"         : "server.js",
   "author"       : "Scotch",
   "repository"   : {
     "type" : "git",
-    "url"  : "https://github.com/scotch-io/node-web-scraper"
+    "url"  : "https://github.com/rabiaokumus/GetMarketValueOfClubs"
   },
   "scripts" : {
-    "start": "node service.js"
-  },
+  "start": "node service.js"
+},
   "dependencies" : {
     "express"    : "latest",
     "request"    : "latest",
