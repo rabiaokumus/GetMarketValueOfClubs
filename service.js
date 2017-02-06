@@ -5,6 +5,7 @@ var cheerio = require('cheerio');
 var app     = express();
 
 app.get('/TR1', function(req, res){
+  console.log("router.TR1 entered");
   url = 'http://www.transfermarkt.com/super-lig/startseite/wettbewerb/TR1';
 
   request(
