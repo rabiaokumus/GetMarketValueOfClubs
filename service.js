@@ -4,8 +4,8 @@ var cheerio = require('cheerio');
 var app     = express();
 var router = express.Router();
 
-var port = 5000;
 
+app.set('port', (process.env.PORT || 5000));
 
 app.get('/', function(req, res){
   console.log("router.TR1 entered");
@@ -27,8 +27,8 @@ app.get('/', function(req, res){
   })
 })
 
-app.listen(port , function() {
-  console.log("listening on port " + port);
+app.listen(app.get('port') , function() {
+  console.log("listening on port " + app.get('port'));
 
 });
 
