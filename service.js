@@ -1,10 +1,10 @@
 var express = require('express');
-var fs      = require('fs');
 var request = require('request');
 var cheerio = require('cheerio');
 var app     = express();
+var router = express.Router();
 
-var port = 8000;
+var port = 5000;
 
 
 app.get('/', function(req, res){
@@ -29,6 +29,7 @@ app.get('/', function(req, res){
 
 app.listen(port , function() {
   console.log("listening on port " + port);
+
 });
 
 exports = module.exports = app;
